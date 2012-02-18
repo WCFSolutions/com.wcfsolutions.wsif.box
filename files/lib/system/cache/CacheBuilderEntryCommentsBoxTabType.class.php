@@ -10,7 +10,7 @@ require_once(WCF_DIR.'lib/system/cache/CacheBuilder.class.php');
  * Caches the entry comments box tab data.
  * 
  * @author	Sebastian Oettl
- * @copyright	2009-2011 WCF Solutions <http://www.wcfsolutions.com/index.html>
+ * @copyright	2009-2012 WCF Solutions <http://www.wcfsolutions.com/index.html>
  * @license	GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
  * @package	com.wcfsolutions.wsif.box
  * @subpackage	system.cache
