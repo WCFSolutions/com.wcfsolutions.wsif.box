@@ -1,0 +1,17 @@
+
+/* ### -- -- -- -- -- Box Print Styles -- -- -- -- -- ### */
+
+/* 
+
+File: print.css 
+Copyright 2009-2011 by wcfsolutions.com
+
+*/
+
+/* ### -- -- -- -- -- General -- -- -- -- -- ### */
+
+#boxesTop, #boxesBottom, #leftBoxColumn, #rightBoxColumn {
+	display: none;
+}
+
+/* ### -- -- -- -- -- EOF -- -- -- -- -- ### */

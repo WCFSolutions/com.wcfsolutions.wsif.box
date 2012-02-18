@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.wcfsolutions.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wcfsolutions.com/XSD/box-type.xsd">
+	<import>
+		<type>
+			<name>entries</name>
+			<classfile>lib/data/box/tab/type/EntriesBoxTabType.class.php</classfile>
+		</type>
+		<type>
+			<name>entryComments</name>
+			<classfile>lib/data/box/tab/type/EntryCommentsBoxTabType.class.php</classfile>
+		</type>
+	</import>
+</data>

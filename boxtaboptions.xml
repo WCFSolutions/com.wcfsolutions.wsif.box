@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<options>			
+			<option name="maxEntries">
+				<boxtabtype>entries</boxtabtype>
+				<categoryname>settings</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>5</defaultvalue>
+			</option>
+			<option name="categoryIDs">
+				<boxtabtype>entries</boxtabtype>
+				<categoryname>settings</categoryname>
+				<optiontype>wsifcategories</optiontype>
+			</option>
+			<option name="displayType">
+				<boxtabtype>entries</boxtabtype>
+				<categoryname>settings</categoryname>
+				<optiontype>select</optiontype>
+				<defaultvalue>list</defaultvalue>
+				<selectoptions><![CDATA[list:wcf.acp.box.tab.type.entries.displayType.list
+thumbnail:wcf.acp.box.tab.type.entries.displayType.thumbnail]]></selectoptions>
+			</option>
+			<option name="maxEntryComments">
+				<boxtabtype>entryComments</boxtabtype>
+				<categoryname>settings</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>5</defaultvalue>
+			</option>
+			<option name="categoryIDs">
+				<boxtabtype>entryComments</boxtabtype>
+				<categoryname>settings</categoryname>
+				<optiontype>wsifcategories</optiontype>
+			</option>
+		</options>
+	</import>
+</data>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.tab.option.entries.categoryIDs"><![CDATA[Kategorien]]></item>
+		<item name="wcf.acp.box.tab.option.entries.categoryIDs.description"><![CDATA[Aus welchen Kategorien sollen die Einträge angezeigt werden?]]></item>
+		<item name="wcf.acp.box.tab.option.entries.displayType"><![CDATA[Ansicht]]></item>
+		<item name="wcf.acp.box.tab.option.entries.displayType.description"><![CDATA[Welche Ansicht soll für die Auflistung der Einträge verwendet werden?]]></item>
+		<item name="wcf.acp.box.tab.option.entries.maxEntries"><![CDATA[Maximale Einträge]]></item>
+		<item name="wcf.acp.box.tab.option.entries.maxEntries.description"><![CDATA[Wieviele Einträge sollen in dem Boxtab angezeigt werden?]]></item>
+		<item name="wcf.acp.box.tab.option.entryComments.categoryIDs"><![CDATA[Kategorien]]></item>
+		<item name="wcf.acp.box.tab.option.entryComments.categoryIDs.description"><![CDATA[Aus welchen Kategorien sollen die Kommentare angezeigt werden?]]></item>
+		<item name="wcf.acp.box.tab.option.entryComments.maxEntryComments"><![CDATA[Maximale Kommentare]]></item>
+		<item name="wcf.acp.box.tab.option.entryComments.maxEntryComments.description"><![CDATA[Wieviele Kommentare sollen in dem Boxtab angezeigt werden?]]></item>
+		<item name="wcf.acp.box.tab.type.entries.displayType.list"><![CDATA[Liste]]></item>
+		<item name="wcf.acp.box.tab.type.entries.displayType.thumbnail"><![CDATA[Vorschaubild]]></item>
+		<item name="wcf.acp.box.tab.type.entries"><![CDATA[Einträge]]></item>
+		<item name="wcf.acp.box.tab.type.entryComments"><![CDATA[Kommentare]]></item>
+	</category>
+	<category name="wcf.box">
+		<item name="wcf.box.position.bottom"><![CDATA[Unter dem Inhaltsbereich]]></item>
+		<item name="wcf.box.position.indexBottom"><![CDATA[Unter dem Inhaltsbereich auf Startseite]]></item>
+		<item name="wcf.box.position.indexTop"><![CDATA[Über dem Inhaltsbereich auf Startseite]]></item>
+		<item name="wcf.box.position.left"><![CDATA[Links vom Inhaltsbereich]]></item>
+		<item name="wcf.box.position.right"><![CDATA[Rechts vom Inhaltsbereich]]></item>
+		<item name="wcf.box.position.top"><![CDATA[Über dem Inhaltsbereich]]></item>
+		<item name="wcf.box.position.userMessages"><![CDATA[Benutzer-Benachrichtigungen]]></item>
+	</category>
+</language>

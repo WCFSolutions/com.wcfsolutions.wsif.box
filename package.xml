@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.wcfsolutions.wsif.box" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Boxen-System für Filebase]]></packagename>
+		<packagedescription><![CDATA[Integriert das Boxen-System in die Filebase. ACHTUNG: Bei den meisten Stilen sind Anpassungen notwendig! Verwenden Sie dieses Paket nur, wenn Sie sich dessen bewusst sind!]]></packagedescription>
+		<plugin>com.wcfsolutions.wsif</plugin>
+		<version>1.1.0</version>
+		<date>2011-09-10</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>WCF Solutions</author>
+		<authorurl>http://www.wcfsolutions.com</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.1.4 Beta 1">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.0.0 Beta 1">com.wcfsolutions.wsif</requiredpackage>
+		<requiredpackage minversion="1.1.0" file="requirements/com.wcfsolutions.wcf.data.box.tar">com.wcfsolutions.wcf.data.box</requiredpackage>
+		<requiredpackage minversion="1.1.0" file="requirements/com.wcfsolutions.wcf.data.navigation.tar">com.wcfsolutions.wcf.data.navigation</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<script>acp/install_box.php</script>
+		
+		<!-- config -->
+		<eventlistener>eventlistener.xml</eventlistener>
+		<boxposition>boxposition.xml</boxposition>
+		<boxtabtype>boxtabtype.xml</boxtabtype>
+		<boxtaboptions>boxtaboptions.xml</boxtaboptions>
+		
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.1.0 RC 1">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		
+		<!-- config -->
+		<eventlistener>eventlistener.xml</eventlistener>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.1">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<script>acp/update_box_101.php</script>
+		
+		<!-- config -->
+		<eventlistener>eventlistener.xml</eventlistener>
+		<boxtabtype>boxtabtype.xml</boxtabtype>
+		<boxtaboptions>boxtaboptions.xml</boxtaboptions>
+		
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+	</instructions>
+</package>
