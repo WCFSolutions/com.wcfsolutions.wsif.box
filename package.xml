@@ -4,8 +4,8 @@
 		<packagename><![CDATA[Boxen-System für Filebase]]></packagename>
 		<packagedescription><![CDATA[Integriert das Boxen-System in die Filebase. ACHTUNG: Bei den meisten Stilen sind Anpassungen notwendig! Verwenden Sie dieses Paket nur, wenn Sie sich dessen bewusst sind!]]></packagedescription>
 		<plugin>com.wcfsolutions.wsif</plugin>
-		<version>1.1.0</version>
-		<date>2011-09-10</date>
+		<version>1.1.1</version>
+		<date>2012-02-18</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -16,7 +16,7 @@
 	<requiredpackages>
 		<requiredpackage minversion="1.1.4 Beta 1">com.woltlab.wcf</requiredpackage>
 		<requiredpackage minversion="2.0.0 Beta 1">com.wcfsolutions.wsif</requiredpackage>
-		<requiredpackage minversion="1.1.0" file="requirements/com.wcfsolutions.wcf.data.box.tar">com.wcfsolutions.wcf.data.box</requiredpackage>
+		<requiredpackage minversion="1.1.2" file="requirements/com.wcfsolutions.wcf.data.box.tar">com.wcfsolutions.wcf.data.box</requiredpackage>
 		<requiredpackage minversion="1.1.0" file="requirements/com.wcfsolutions.wcf.data.navigation.tar">com.wcfsolutions.wcf.data.navigation</requiredpackage>
 	</requiredpackages>
 	
@@ -37,13 +37,9 @@
 		<languages languagecode="de-informal">de-informal.xml</languages>
 	</instructions>
 	
-	<instructions type="update" fromversion="1.1.0 RC 1">
+	<instructions type="update" fromversion="1.1.0">
 		<!-- files -->
 		<files>files.tar</files>
-		<templates>templates.tar</templates>
-		
-		<!-- config -->
-		<eventlistener>eventlistener.xml</eventlistener>
 	</instructions>
 	
 	<instructions type="update" fromversion="1.0.1">
