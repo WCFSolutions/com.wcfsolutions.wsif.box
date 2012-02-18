@@ -40,6 +40,7 @@
 	<instructions type="update" fromversion="1.1.0">
 		<!-- files -->
 		<files>files.tar</files>
+		<script>acp/update_box_110.php</script>
 	</instructions>
 	
 	<instructions type="update" fromversion="1.0.1">

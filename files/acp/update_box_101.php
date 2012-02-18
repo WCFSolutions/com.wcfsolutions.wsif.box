@@ -1,7 +1,7 @@
 <?php
 /**
  * @author	Sebastian Oettl
- * @copyright	2009-2011 WCF Solutions <http://www.wcfsolutions.com/index.html>
+ * @copyright	2009-2012 WCF Solutions <http://www.wcfsolutions.com/index.html>
  * @license	GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
  */
 $packageID = $this->installation->getPackageID();
@@ -26,8 +26,8 @@ foreach ($deprecatedFiles as $file) {
 
 // delete deprecated templates
 $deprecatedTemplates = array(
-	'lastEntriesBoxType.tpl',
-	'lastEntryCommentsBoxType.tpl'
+	'lastEntriesBoxType',
+	'lastEntryCommentsBoxType'
 );
 
 $sql = "DELETE FROM	wcf".WCF_N."_template
