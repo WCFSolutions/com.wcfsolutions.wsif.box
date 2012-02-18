@@ -40,7 +40,8 @@ class CacheBuilderEntryCommentsBoxTabType implements CacheBuilder {
 		if (!$boxTab->categoryIDs) return $data;
 		
 		// get entries
-		$sql = "SELECT		entry_comment.commentID, entry_comment.subject, entry_comment.time
+		$sql = "SELECT		entry_comment.commentID, entry_comment.userID, entry_comment.username,
+					entry_comment.subject, entry_comment.time
 			FROM		wsif".WSIF_N."_entry_comment entry_comment
 			LEFT JOIN	wsif".WSIF_N."_entry entry
 			ON		(entry.entryID = entry_comment.entryID)
