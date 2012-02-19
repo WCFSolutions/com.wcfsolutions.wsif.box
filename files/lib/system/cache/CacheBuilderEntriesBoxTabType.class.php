@@ -50,7 +50,7 @@ class CacheBuilderEntriesBoxTabType implements CacheBuilder {
 				ORDER BY	time DESC";
 		}
 		else {
-			$sql = "SELECT		entry.entryID, entry.subject, entry.time, entry.defaultImageID, entry_image.imageID, entry_image.hasThumbnail
+			$sql = "SELECT		entry.entryID, entry.userID, entry.username, entry.subject, entry.time, entry.defaultImageID, entry_image.imageID, entry_image.hasThumbnail
 				FROM		wsif".WSIF_N."_entry entry
 				LEFT JOIN	wsif".WSIF_N."_entry_image entry_image
 				ON		(entry_image.imageID = entry.defaultImageID)
