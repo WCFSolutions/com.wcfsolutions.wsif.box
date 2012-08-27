@@ -8,7 +8,7 @@
 					</div>
 					<div class="containerContent">
 						<h4><a href="index.php?page=Entry&amp;entryID={@$entry->entryID}{@SID_ARG_2ND}">{$entry->subject}</a></h4>
-						<p class="firstPost smallFont light">{@$entry->time|time}</p>
+						<p class="firstPost smallFont light">{lang}wcf.box.tab.type.wsifEntries.entry.by{/lang} {if $entry->userID}<a href="index.php?page=User&amp;userID={@$entry->userID}{@SID_ARG_2ND}">{$entry->username}</a>{else}{$entry->username}{/if} ({@$entry->time|time})</p>
 					</div>
 				</li>
 			{/foreach}
