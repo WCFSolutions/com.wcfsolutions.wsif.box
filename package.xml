@@ -7,7 +7,7 @@
 		<packagedescription languagecode="de"><![CDATA[Integriert das Boxen-System in Infinite Filebase. ACHTUNG: Bei manchen Stilen sind Anpassungen notwendig! Verwenden Sie dieses Paket nur, wenn Sie sich dessen bewusst sind!]]></packagedescription>
 		<plugin>com.wcfsolutions.wsif</plugin>
 		<version>1.2.0</version>
-		<date>2012-09-15</date>
+		<date>2012-09-16</date>
 	</packageinformation>
 
 	<authorinformation>
